@@ -21,8 +21,8 @@ Check DNS settings
 
 View IP Address
 Command: 
-
-```Get-NetIPAddress
+```
+Get-NetIPAddress
 ```
 
 Shows:
