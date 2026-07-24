@@ -102,13 +102,13 @@ WiFi stops working
 Adapter needs resetting
 
 
-# Useful Commands
-Command	                            Purpose
-Get-NetIPConfiguration	            View network settings
-Test-NetConnection	                Test connectivity
-Resolve-DnsName	                    DNS testing
-Get-NetAdapter	                    Check adapters
-Restart-NetAdapter	                Restart network
+| Command | Purpose |
+|---|---|
+| Get-NetIPConfiguration | View network settings |
+| Test-NetConnection | Test connectivity |
+| Resolve-DnsName | DNS testing |
+| Get-NetAdapter | Check adapters |
+| Restart-NetAdapter | Restart network |
 
 Skills Demonstrated
 ✅ PowerShell Networking
