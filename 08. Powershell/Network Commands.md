@@ -18,7 +18,7 @@ Purpose:
 View IP address
 Check gateway
 Check DNS settings
----
+
 
 ---
 #View IP Address
