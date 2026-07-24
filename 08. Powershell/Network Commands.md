@@ -21,7 +21,7 @@ Check DNS settings
 
 
 ---
-#View IP Address
+##View IP Address
 
 Command: 
 ```powershell
