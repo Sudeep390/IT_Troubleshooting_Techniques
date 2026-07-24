@@ -21,7 +21,7 @@ Check DNS settings
 
 View IP Address
 Command: 
-```
+```powershell
 Get-NetIPAddress
 ```
 
@@ -31,7 +31,7 @@ IPv6 address
 Network interface
 
 Test Network Connectivity
-```
+```powershell
 Test-NetConnection google.com
 ```
 
@@ -42,7 +42,7 @@ Port availability
 
 Test Specific Port
 Example:
-```
+```powershell
 Test-NetConnection server01 -Port 443
 ```
 Common ports:
@@ -54,7 +54,7 @@ Port	Service
 
 View DNS Information
 Command:
-```
+```powershell
 Resolve-DnsName google.com
 ```
 Purpose:
@@ -63,7 +63,7 @@ Verify name resolution
 
 View Network Adapter Status
 Command:
-```
+```powershell
 Get-NetAdapter
 ```
 Shows:
@@ -73,7 +73,7 @@ Connection speed
 
 Restart Network Adapter
 Command:
-```
+```powershell
 Restart-NetAdapter -Name "Wi-Fi"
 ```
 Used when:
