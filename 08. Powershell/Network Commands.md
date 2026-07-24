@@ -9,7 +9,6 @@ PowerShell provides commands to diagnose network problems, check connectivity, a
 # View Network Configuration
 
 Command:
-
 ```powershell
 Get-NetIPConfiguration
 ```
@@ -20,8 +19,8 @@ Check gateway
 Check DNS settings
 
 
----
-##View IP Address
+
+# View IP Address
 
 Command: 
 ```powershell
@@ -34,7 +33,9 @@ IPv6 address
 Network interface
 
 
-#Test Network Connectivity
+# Test Network Connectivity
+
+Command:
 ```powershell
 Test-NetConnection google.com
 ```
@@ -45,20 +46,22 @@ DNS resolution
 Port availability
 
 
-#Test Specific Port
-Example:
+# Test Specific Port
+
+Command:
+
 ```powershell
 Test-NetConnection server01 -Port 443
 ```
 Common ports:
-Port	Service
-80	HTTP
-443	HTTPS
-3389	Remote Desktop
-22	SSH
+Port	          Service
+80	            HTTP
+443	            HTTPS
+3389	          Remote Desktop
+22	            SSH
 
 
-#View DNS Information
+# View DNS Information
 Command:
 ```powershell
 Resolve-DnsName google.com
@@ -68,7 +71,7 @@ DNS troubleshooting
 Verify name resolution
 
 
-#View Network Adapter Status
+# View Network Adapter Status
 Command:
 ```powershell
 Get-NetAdapter
@@ -79,7 +82,7 @@ Status
 Connection speed
 
 
-#Restart Network Adapter
+# Restart Network Adapter
 Command:
 ```powershell
 Restart-NetAdapter -Name "Wi-Fi"
@@ -89,13 +92,13 @@ WiFi stops working
 Adapter needs resetting
 
 
-#Useful Commands
-Command	Purpose
-Get-NetIPConfiguration	View network settings
-Test-NetConnection	Test connectivity
-Resolve-DnsName	DNS testing
-Get-NetAdapter	Check adapters
-Restart-NetAdapter	Restart network
+# Useful Commands
+Command	                            Purpose
+Get-NetIPConfiguration	            View network settings
+Test-NetConnection	                Test connectivity
+Resolve-DnsName	                    DNS testing
+Get-NetAdapter	                    Check adapters
+Restart-NetAdapter	                Restart network
 
 Skills Demonstrated
 ✅ PowerShell Networking
