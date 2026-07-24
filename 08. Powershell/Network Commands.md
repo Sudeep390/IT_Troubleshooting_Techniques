@@ -59,12 +59,12 @@ Command:
 ```powershell
 Test-NetConnection server01 -Port 443
 ```
-Common ports:
-Port	          Service
-80	            HTTP
-443	            HTTPS
-3389	          Remote Desktop
-22	            SSH
+| Port | Service |
+|---|---|
+| 80 | HTTP |
+| 443 | HTTPS |
+| 3389 | Remote Desktop |
+| 22 | SSH |
 
 
 # View DNS Information
@@ -112,6 +112,9 @@ Adapter needs resetting
 
 Skills Demonstrated
 ✅ PowerShell Networking
+
 ✅ TCP/IP Troubleshooting
+
 ✅ DNS Diagnosis
+
 ✅ Network Automation
