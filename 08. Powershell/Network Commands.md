@@ -14,9 +14,11 @@ Get-NetIPConfiguration
 ```
 
 Purpose:
-* View IP address
-* Check gateway
-* Check DNS settings
+View IP address
+
+Check gateway
+
+Check DNS settings
 
 
 
@@ -28,9 +30,11 @@ Get-NetIPAddress
 ```
 
 Shows:
-* IPv4 address
-* IPv6 address
-* Network interface
+IPv4 address
+
+IPv6 address
+
+Network interface
 
 
 # Test Network Connectivity
@@ -42,7 +46,9 @@ Test-NetConnection google.com
 
 Checks:
 Internet connectivity
+
 DNS resolution
+
 Port availability
 
 
@@ -68,6 +74,7 @@ Resolve-DnsName google.com
 ```
 Purpose:
 DNS troubleshooting
+
 Verify name resolution
 
 
@@ -78,7 +85,9 @@ Get-NetAdapter
 ```
 Shows:
 Adapter name
+
 Status
+
 Connection speed
 
 
@@ -89,6 +98,7 @@ Restart-NetAdapter -Name "Wi-Fi"
 ```
 Used when:
 WiFi stops working
+
 Adapter needs resetting
 
 
