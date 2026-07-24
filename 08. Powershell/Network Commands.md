@@ -22,6 +22,7 @@ Check DNS settings
 
 ---
 #View IP Address
+
 Command: 
 ```powershell
 Get-NetIPAddress
