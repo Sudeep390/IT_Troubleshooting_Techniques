@@ -89,13 +89,16 @@ Settings
 ### 6. Reset Windows Update Components
 
 Open Command Prompt as Administrator:
+
 net stop wuauserv
 
 net stop bits
 
 net stop cryptsvc
+
 Clear update cache:
 C:\Windows\SoftwareDistribution
+
 Restart services:
 net start wuauserv
 
