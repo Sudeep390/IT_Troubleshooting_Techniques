@@ -14,9 +14,9 @@ Get-NetIPConfiguration
 ```
 
 Purpose:
-View IP address
-Check gateway
-Check DNS settings
+* View IP address
+* Check gateway
+* Check DNS settings
 
 
 
@@ -28,9 +28,9 @@ Get-NetIPAddress
 ```
 
 Shows:
-IPv4 address
-IPv6 address
-Network interface
+* IPv4 address
+* IPv6 address
+* Network interface
 
 
 # Test Network Connectivity
