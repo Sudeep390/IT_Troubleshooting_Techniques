@@ -24,7 +24,6 @@ Domain information
 Command:
 ```powershell
 Get Local Users
-Command:
 ```
 
 Displays:
