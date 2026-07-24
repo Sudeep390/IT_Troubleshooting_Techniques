@@ -111,6 +111,7 @@ Adapter needs resetting
 | Restart-NetAdapter | Restart network |
 
 Skills Demonstrated
+
 ✅ PowerShell Networking
 
 ✅ TCP/IP Troubleshooting
