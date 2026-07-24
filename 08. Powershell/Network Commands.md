@@ -19,7 +19,8 @@ View IP address
 Check gateway
 Check DNS settings
 
-View IP Address
+
+#View IP Address
 Command: 
 ```powershell
 Get-NetIPAddress
@@ -30,7 +31,8 @@ IPv4 address
 IPv6 address
 Network interface
 
-Test Network Connectivity
+
+#Test Network Connectivity
 ```powershell
 Test-NetConnection google.com
 ```
@@ -40,7 +42,8 @@ Internet connectivity
 DNS resolution
 Port availability
 
-Test Specific Port
+
+#Test Specific Port
 Example:
 ```powershell
 Test-NetConnection server01 -Port 443
@@ -52,7 +55,8 @@ Port	Service
 3389	Remote Desktop
 22	SSH
 
-View DNS Information
+
+#View DNS Information
 Command:
 ```powershell
 Resolve-DnsName google.com
@@ -61,7 +65,8 @@ Purpose:
 DNS troubleshooting
 Verify name resolution
 
-View Network Adapter Status
+
+#View Network Adapter Status
 Command:
 ```powershell
 Get-NetAdapter
@@ -71,7 +76,8 @@ Adapter name
 Status
 Connection speed
 
-Restart Network Adapter
+
+#Restart Network Adapter
 Command:
 ```powershell
 Restart-NetAdapter -Name "Wi-Fi"
@@ -80,7 +86,8 @@ Used when:
 WiFi stops working
 Adapter needs resetting
 
-Useful Commands
+
+#Useful Commands
 Command	Purpose
 Get-NetIPConfiguration	View network settings
 Test-NetConnection	Test connectivity
